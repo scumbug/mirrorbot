@@ -1,0 +1,30 @@
+{
+  "name": "mirrorbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "nodemon dist/main.js",
+    "dev": "nodemon -i 'sessions' ./src/main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anchor-protocol/anchor.js": "^2.0.0",
+    "@grammyjs/menu": "^1.0.4",
+    "@grammyjs/router": "^1.1.1",
+    "@mirror-protocol/mirror.js": "^2.1.4",
+    "@satont/grammy-file-storage": "^1.1.2",
+    "@terra-money/terra.js": "^3.0.1",
+    "dotenv": "^10.0.0",
+    "grammy": "^1.5.3",
+    "rxjs": "^7.4.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.5.4"
+  }
+}
